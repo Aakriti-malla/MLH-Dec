@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+body{
+  font-family: 'Karla', sans-serif;
+/*   background-color:  #f2e6d9; */
+}
+#main{
+  background:  #e6e6e6;
+  border-radius: 15px;
+  padding:15px;
+}
+
+#title{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+p{
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  
+}
+img{
+  max-width: 100%;
+  display:block;
+  height: auto;
+  width: 0 auto;
+  border-radius: 40px;
+  border-width: 2px;
+  border-color:  #993366;
+  border-style: inset;
+}
+#img-div{
+  background: #e6e6ff;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #e6b3cc;
+  border-style: ridge;
+}
+#image{
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption{
+  margin: 15px 0 5px 0;
+  text-align: center;
+  
+}
+
+a {
+  color:  #990099;
+}
+
+blockquote{
+  text-align: center;
+}
+#headline{
+  margin: 50px 0;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  
+}
+ul{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+tribute-info{
+  
+}
