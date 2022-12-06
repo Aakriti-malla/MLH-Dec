@@ -58,31 +58,3 @@ class BinarySearchTree{
 
 }
 
-
-
-
-
-// class BinarySearchtree {
-//     public boolean isValidBST(TreeNode root) {
-//         Stack<TreeNode> st = new Stack();
-//         double left = - Double.MAX_VALUE;
-        
-//         while(!st.isEmpty() || root != null){
-//             while(root != null){
-//                 st.push(root);
-//                 root = root.left;
-//             }
-            
-//             root = st.pop();
-//             if(root.val <= left){
-//                 return false;
-//             }
-            
-//             left = root.val;
-//             root = root.right;
-//         } 
-        
-//         return true;
-//     }
-
-// }
